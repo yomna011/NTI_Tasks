@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meal Finder</title>
+  <link rel="stylesheet" href="task1.css" />
+</head>
+<body>
+  <main>
+    <h1>Search for a Meal</h1>
+
+    <form id="meal-form" onsubmit="return false;">
+      <input
+        type="text"
+        id="meal"
+        placeholder="Enter meal name"
+        aria-label="Meal name"
+        required
+      />
+      <button id="search" type="submit">Search</button>
+    </form>
+
+    <section id="result" aria-live="polite"></section>
+  </main>
+
+  <script src="./task1.js"></script>
+</body>
+</html>
